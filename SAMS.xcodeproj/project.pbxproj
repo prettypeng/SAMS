@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F316FEFE1B57C04C00207C28 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F316FEFD1B57C04C00207C28 /* main.cpp */; };
+		F316FF071B57C19800207C28 /* AchievementDatabase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F316FF051B57C19800207C28 /* AchievementDatabase.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		F316FEFA1B57C04C00207C28 /* SAMS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SAMS; sourceTree = BUILT_PRODUCTS_DIR; };
 		F316FEFD1B57C04C00207C28 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F316FF051B57C19800207C28 /* AchievementDatabase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AchievementDatabase.cpp; sourceTree = "<group>"; };
+		F316FF061B57C19800207C28 /* AchievementDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AchievementDatabase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				F316FEFD1B57C04C00207C28 /* main.cpp */,
+				F316FF051B57C19800207C28 /* AchievementDatabase.cpp */,
+				F316FF061B57C19800207C28 /* AchievementDatabase.h */,
 			);
 			path = SAMS;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F316FF071B57C19800207C28 /* AchievementDatabase.cpp in Sources */,
 				F316FEFE1B57C04C00207C28 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
